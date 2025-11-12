@@ -42,7 +42,34 @@ Requirements:
 - Libraries: transformers, torch, scikit-learn, pandas, numpy, matplotlib, seaborn (optional)
 - GPU support (CUDA) is recommended for training.
 
-## Methodology
+1. Materials & Methods
+
+**Computing Infrastructure**
+
+- **Operating System:** Ubuntu 22.04 LTS (Linux-based environment)
+- **CPU:** Intel(R) Core i7 / AMD Ryzen 7 or higher
+- **GPU:** NVIDIA Tesla T4 (used in Google Colab) or local CUDA-compatible GPU
+- **RAM:** Minimum 16 GB recommended (Colab Pro or equivalent)
+- **Python Version:** 3.8+
+- **Notebook Environment:** Jupyter Notebook / Google Colab
+
+**Software Libraries**
+
+The experiments were performed using the following Python packages:
+numpy
+scipy
+matplotlib
+pandas
+scikit-learn
+torch
+transformers
+jupyter
+notebook
+seaborn
+tqdm
+
+** Methods **
+
 1. **Data Preprocessing** – Cleaning and structuring the dataset for text based analysis.
 2. **Model Development** – Fine-tuning RoBERTa for classification tasks.
 3. **Ensemble Methods** – Combining multiple models to improve robustness and accuracy.
@@ -67,28 +94,4 @@ Steps:
 3. Make your changes and commit (`git commit -m "Added new feature"`)
 4. Push and submit a Pull Request
 
-## Materials and Methods
 
-🖥️ **Computing Infrastructure**
-
-- **Operating System:** Ubuntu 22.04 LTS (Linux-based environment)
-- **CPU:** Intel(R) Core i7 / AMD Ryzen 7 or higher
-- **GPU:** NVIDIA Tesla T4 (used in Google Colab) or local CUDA-compatible GPU
-- **RAM:** Minimum 16 GB recommended (Colab Pro or equivalent)
-- **Python Version:** 3.8+
-- **Notebook Environment:** Jupyter Notebook / Google Colab
-
-**Software Libraries**
-
-The experiments were performed using the following Python packages:
-numpy
-scipy
-matplotlib
-pandas
-scikit-learn
-torch
-transformers
-jupyter
-notebook
-seaborn
-tqdm
